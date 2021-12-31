@@ -4,24 +4,24 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=LighthouseKernel by Stealth1226
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
-device.name5=
+device.name1=miatoll
+device.name2=curtana
+device.name3=excalibur
+device.name4=gram
+device.name5=joyeuse
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/platform/omap/omap_hsmmc.0/by-name/boot;
-is_slot_device=0;
+block=/dev/block/bootdevice/by-name/boot;
+is_slot_device=auto;
 ramdisk_compression=auto;
 patch_vbmeta_flag=auto;
 
